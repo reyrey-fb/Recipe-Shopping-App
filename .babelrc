@@ -1,0 +1,14 @@
+//preset code based on the environment of browsers
+//convert/compile code to be compatible with the last 5 versions of browsers
+{
+    "presets": [
+        ["env", {
+            "targets": {
+                "browsers": [
+                    "last 5 versions",
+                    "ie >= 8"
+                ]
+            }
+        }]
+    ]
+}
